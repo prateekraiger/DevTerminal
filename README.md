@@ -21,25 +21,48 @@ This project creates a "hacker movie" effect of a busy terminal, perfect for pre
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/prateekraiger/DevTerminal.git
+   cd DevTerminal
    ```
 2. **Install dependencies:**
-   - No dependencies required! Just make sure Node.js is installed.
+   - This project uses [pnpm](https://pnpm.io/) for managing dependencies. If you don't have pnpm installed, run:
+     ```sh
+     npm install -g pnpm
+     ```
+   - Then install dependencies:
+     ```sh
+     pnpm install
+     ```
 
 ## 💻 Usage
 
 ### Windows
 
-- Double-click `start.bat` in the project folder, **or**
-- Open a terminal and run:
+- **Option 1:** Double-click `start.bat` in the project folder
+- **Option 2:** Open a terminal and run:
   ```cmd
   .\start.bat
+  ```
+- **Option 3:** Start the development server (for web UI):
+  ```cmd
+  pnpm dev
   ```
 
 ### Linux/macOS
 
-- Run the CLI directly:
+- **Option 1:** Run the CLI directly:
+  ```sh
+  node cli.js
+  ```
+- **Option 2:** Make it executable and run:
+  ```sh
+  chmod +x cli.js
+  ./cli.js
+  ```
+- **Option 3:** Start the development server (for web UI):
+  ```sh
+  pnpm dev
+  ```
   ```sh
   node cli.js
   ```
