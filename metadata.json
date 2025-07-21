@@ -1,0 +1,6 @@
+
+{
+  "name": "Live Terminal Simulator",
+  "description": "A React application that simulates continuous, realistic terminal output of system administration and development tasks, creating the appearance of busy backend operations.",
+  "requestFramePermissions": []
+}

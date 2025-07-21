@@ -1,0 +1,20 @@
+{
+  "name": "devterminal-fx",
+  "version": "2.0.0",
+  "description": "A Node.js CLI that simulates continuous, realistic terminal output for a hacker-movie effect.",
+  "private": true,
+  "scripts": {
+    "dev": "node cli.js",
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "terminal",
+    "simulator",
+    "cli",
+    "hacker",
+    "fx"
+  ],
+  "author": "pratik",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}
